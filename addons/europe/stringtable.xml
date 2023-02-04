@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="FISH_CAMO_CREAM">
+    <Package name="Europe">
+        <Key ID="STR_FISH_CAMO_CREAM_Europe_Item">
+            <English>Cam Cream Kit - Europe</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_Europe_type">
+            <English>Europe</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_Europe_Item_description">
+            <English>Kit that allows application of cam cream</English>
+        </Key>
+    </Package>
+</Project>

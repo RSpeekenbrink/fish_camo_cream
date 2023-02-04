@@ -21,3 +21,4 @@ ArmaScriptCompiler.exe
 *.sqfc
 keys/*
 *.log
+*.psd

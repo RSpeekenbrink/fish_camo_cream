@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="FISH_CAMO_CREAM">
+    <Package name="Desert">
+        <Key ID="STR_FISH_CAMO_CREAM_Desert_Item">
+            <English>Cam Cream Kit - Desert</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_Desert_type">
+            <English>Desert</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_Desert_Item_description">
+            <English>Kit that allows application of cam cream</English>
+        </Key>
+    </Package>
+</Project>

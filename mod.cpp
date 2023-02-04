@@ -1,10 +1,10 @@
-name = "Fish Ops 1.4.0";
+name = "Fish Camo Cream 1.0.0";
 picture = "logo.paa";
-description = "Fish Ops - Version 1.4.0";
+description = "Fish Camo Cream - Version 1.0.0";
 logo = "logo.paa";
 logoOver = "logo.paa";
 tooltip = "FISH_CAMO_CREAM";
 tooltipOwned = "FISH_CAMO_CREAM Owned";
-overview = "Customized mods for Fisher's ops.";
+overview = "Camo Cream for ArmA 3";
 author = "Fisher";
 overviewPicture = "logo.paa";

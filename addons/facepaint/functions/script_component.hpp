@@ -1,1 +1,0 @@
-#include "\z\fish_camo_cream\addons\facepaint\script_component.hpp"

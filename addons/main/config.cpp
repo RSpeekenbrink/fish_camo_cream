@@ -16,16 +16,14 @@ class CfgPatches {
 class CfgMods {
     class PREFIX {
         dir = "@fish_camo_cream";
-        name = "Fish Ops";
+        name = "Fish Camo Cream";
         picture = "A3\Ui_f\data\Logos\arma3_expansion_alpha_ca";
         hidePicture = "true";
         hideName = "true";
         actionName = "Discord";
         action = CSTRING(URL);
-        description = "Fish Ops Mods";
+        description = "Fish Camo Cream";
     };
 };
 
 #include "CfgSettings.hpp"
-#include "CfgModuleCategories.hpp"
-#include "CfgEditorSubcategories.hpp"

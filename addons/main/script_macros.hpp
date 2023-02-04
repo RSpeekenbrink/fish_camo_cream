@@ -52,6 +52,9 @@
 #define ACEXFUNC(var1,var2) TRIPLES(acex,DOUBLES(var1,fnc),var2)
 #define QACEXFUNC(var1,var2) QUOTE(ACEXFUNC(var1,var2))
 
+#define DLLSTRING(var1) localize QUOTE(QUOTE(TRIPLES(STR,ADDON,var1)))
+#define DLELSTRING(var1,var2) localize QUOTE(QUOTE(TRIPLES(STR,DOUBLES(PREFIX,var1),var2)))
+
 #define MACRO_ADDWEAPON(WEAPON,COUNT) class _xx_##WEAPON { \
     weapon = #WEAPON; \
     count = COUNT; \

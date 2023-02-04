@@ -5,7 +5,43 @@
             <English>Fisher</English>
         </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Common_ace_category">
-            <English>Fish Ops</English>
+            <English>Camo Cream</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_Common_apply_regular_cream">
+            <English>Apply Regular Cream</English>
+        </Key>
+         <Key ID="STR_FISH_CAMO_CREAM_Common_apply_half_cream">
+            <English>Apply Half Cream</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_Common_apply_dark_cream">
+            <English>Apply Dark Cream</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_Common_apply_light_cream">
+            <English>Apply Light Cream</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_Common_remove_cream">
+            <English>Remove Camo Cream</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_Common_ApplyingX">
+            <English>Applying%1...</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_Common_Removing">
+            <English>Removing Camo Cream...</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_Common_regular_cream">
+            <English>Regular Cream</English>
+        </Key>
+        
+        <Key ID="STR_FISH_CAMO_CREAM_Common_dark_cream">
+            <English>Dark Cream</English>
+        </Key>
+        
+        <Key ID="STR_FISH_CAMO_CREAM_Common_light_cream">
+            <English>Light Cream</English>
+        </Key>
+       
+        <Key ID="STR_FISH_CAMO_CREAM_Common_half_cream">
+            <English>Half Cream</English>
         </Key>
     </Package>
 </Project>
