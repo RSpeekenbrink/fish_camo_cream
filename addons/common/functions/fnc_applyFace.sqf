@@ -23,7 +23,7 @@ _player = [_this, 0, objNull] call BIS_fnc_param;
 _camo = [_this, 1, ["", false]] call BIS_fnc_param;
 _camoName = [_this, 2, "", ""] call BIS_fnc_param;
 
-private _applicationTime = 1;
+private _applicationTime = GVAR(application_time);
 private _applicationText = LLSTRING(ApplyingX);
 
 if (!(_camo isEqualType "") || _camo isEqualTo "") then {

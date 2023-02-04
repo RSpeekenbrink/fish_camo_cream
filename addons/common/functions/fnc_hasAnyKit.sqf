@@ -1,13 +1,13 @@
 #include "script_component.hpp"
 /*
  * Author: Fisher
- * Check if given player can remove camo
+ * Check if given player has a valid camo cream kit
  *
  * Arguments:
  * 0: Player <OBJECT>
  *
  * Return Value:
- * if camo can be removed <BOOL>
+ * if camo cream kit is in inventory <BOOL>
  *
  * Example:
  * [player] call fish_camo_cream_common_cam_fnc_canRemoveCamo
@@ -21,6 +21,11 @@ _player = [_this, 0, objNull] call BIS_fnc_param;
 
 if (!alive _player) exitWith {false};
 
-if (([_player] call FUNC(getCurrentCamo)) isEqualTo "") exitWith {false};
+_playerItems = _player call ACEFUNC(common,uniqueItems);
+_result = false;
 
-[_player] call FUNC(hasAnyKit);
+{
+	if (_x in _playerItems) exitWith {_result = true};
+} forEach GVAR(camo_kits_available);
+
+_result;

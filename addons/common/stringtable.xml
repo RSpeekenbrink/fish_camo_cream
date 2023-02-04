@@ -4,6 +4,9 @@
         <Key ID="STR_FISH_CAMO_CREAM_Common_ModTeam">
             <English>Fisher</English>
         </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_Common_Displayname">
+            <English>Fish Camo Cream</English>
+        </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Common_ace_category">
             <English>Camo Cream</English>
         </Key>
@@ -31,17 +34,26 @@
         <Key ID="STR_FISH_CAMO_CREAM_Common_regular_cream">
             <English>Regular Cream</English>
         </Key>
-        
         <Key ID="STR_FISH_CAMO_CREAM_Common_dark_cream">
             <English>Dark Cream</English>
         </Key>
-        
         <Key ID="STR_FISH_CAMO_CREAM_Common_light_cream">
             <English>Light Cream</English>
         </Key>
-       
         <Key ID="STR_FISH_CAMO_CREAM_Common_half_cream">
             <English>Half Cream</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_Common_application_time">
+            <English>Application Time</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_Common_application_time_description">
+            <English>Time (in seconds) it takes to apply and remove camo cream</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_Common_require_correct_kit">
+            <English>Require Correct Kit</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_Common_require_correct_kit_description">
+            <English>Require correct kit for camo types. If unchecked having a single kit will make all camo types available for application</English>
         </Key>
     </Package>
 </Project>

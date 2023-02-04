@@ -6,6 +6,8 @@ PREP_RECOMPILE_START;
 #include "XEH_PREP.hpp"
 PREP_RECOMPILE_END;
 
+#include "initSettings.sqf"
+
 ADDON = true;
 
 GVAR(face_prefix) = "_fish_";

@@ -6,7 +6,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"fish_camo_cream_main", "ace_interact_menu"};
+        requiredAddons[] = {"fish_camo_cream_main", "ace_interact_menu", "ace_common"};
         author = CSTRING(ModTeam);
         VERSION_CONFIG;
     };

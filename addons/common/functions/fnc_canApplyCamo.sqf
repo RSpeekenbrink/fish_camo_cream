@@ -16,7 +16,7 @@
  * Public: Yes
  */
 
-private ["_player", "_camo", "_face", "_requiredItem"];
+private ["_player", "_camo", "_face", "_requiredItem", "_result"];
 
 _player = [_this, 0, objNull] call BIS_fnc_param;
 _camo = [_this, 1, ""] call BIS_fnc_param;
@@ -32,9 +32,15 @@ _face = face _player + GVAR(face_prefix) + _camo;
 
 if (!isClass(configFile >> "cfgFaces" >> "Man_A3" >> _face)) exitWith {false};
 
-// Check if player has required item in inventory
-_requiredItem = GVAR(camo_available) get _camo;
+_result = true;
 
-if (!(_requiredItem in (_player call ACEFUNC(common,uniqueItems)))) exitWith {false};
+if (GVAR(require_correct_kit)) then {
+	// Check if player has required item in inventory
+	_requiredItem = GVAR(camo_available) get _camo;
 
-true;
+	if (!(_requiredItem in (_player call ACEFUNC(common,uniqueItems)))) exitWith {_result = false};
+} else {
+	if (!([_player] call FUNC(hasAnyKit))) exitWith {_result = false};
+};
+
+_result;
