@@ -1,0 +1,10 @@
+name = "Fish Ops 1.4.0";
+picture = "logo.paa";
+description = "Fish Ops - Version 1.4.0";
+logo = "logo.paa";
+logoOver = "logo.paa";
+tooltip = "FISH_CAMO_CREAM";
+tooltipOwned = "FISH_CAMO_CREAM Owned";
+overview = "Customized mods for Fisher's ops.";
+author = "Fisher";
+overviewPicture = "logo.paa";

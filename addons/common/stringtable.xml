@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="FISH_CAMO_CREAM">
+    <Package name="Common">
+        <Key ID="STR_FISH_CAMO_CREAM_Common_ModTeam">
+            <English>Fisher</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_Common_ace_category">
+            <English>Fish Ops</English>
+        </Key>
+    </Package>
+</Project>

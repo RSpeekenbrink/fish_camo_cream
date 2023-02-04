@@ -1,0 +1,16 @@
+{
+    "inputDirs": [
+        "P:/z/fish_camo_cream/addons/"
+    ],
+    "includePaths": [
+        "P:/"
+    ],
+    "excludeList": [
+        "initsettings.sqf",
+        "initkeybinds.sqf",
+        "xeh_prep.sqf",
+        "\\dev\\"
+    ],
+    "outputDir": "P:/",
+    "workerThreads": 12
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="FISH_CAMO_CREAM">
+    <Package name="Main">
+        <Key ID="STR_FISH_CAMO_CREAM_Main_Category_Logistics">
+            <English>Fish-Ops Logistics</English>
+            <German>Fish-Ops Logistik</German>
+            <Polish>Fish-Ops Logistyka</Polish>
+            <Portuguese>Logísticas Fish-Ops</Portuguese>
+            <Russian>Fish-Ops: логистика</Russian>
+            <Czech>Fish-Ops Logistika</Czech>
+            <Spanish>Fish-Ops Logística</Spanish>
+            <Italian>Logistica Fish-Ops</Italian>
+            <French>Fish-Ops Logistique</French>
+            <Japanese>Fish-Ops ロジスティクス</Japanese>
+            <Chinesesimp>Fish-Ops 后勤</Chinesesimp>
+            <Chinese>Fish-Ops 後勤</Chinese>
+            <Korean>Fish-Ops 군수</Korean>
+            <Turkish>Fish-Ops Lojistik</Turkish>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_Main_URL">
+            <English>https://discord.gg/bUUkq4NBXS</English>
+            <German>https://discord.gg/bUUkq4NBXS</German>
+            <Polish>https://discord.gg/bUUkq4NBXS</Polish>
+            <Portuguese>https://discord.gg/bUUkq4NBXS</Portuguese>
+            <Russian>https://discord.gg/bUUkq4NBXS</Russian>
+            <Czech>https://discord.gg/bUUkq4NBXS</Czech>
+            <Spanish>https://discord.gg/bUUkq4NBXS</Spanish>
+            <Italian>https://discord.gg/bUUkq4NBXS</Italian>
+            <French>https://discord.gg/bUUkq4NBXS</French>
+            <Korean>https://discord.gg/bUUkq4NBXS</Korean>
+            <Japanese>https://discord.gg/bUUkq4NBXS</Japanese>
+            <Chinesesimp>https://discord.gg/bUUkq4NBXS</Chinesesimp>
+            <Chinese>https://discord.gg/bUUkq4NBXS</Chinese>
+            <Hungarian>https://discord.gg/bUUkq4NBXS</Hungarian>
+            <Turkish>https://discord.gg/bUUkq4NBXS</Turkish>
+        </Key>
+    </Package>
+</Project>

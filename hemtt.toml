@@ -1,0 +1,20 @@
+name = "FISH_CAMO_CREAM"
+prefix = "fish_camo_cream"
+author = "Fisher"
+files = [
+    "*.dll",
+    "*.so",
+    "mod.cpp",
+    "logo.paa",
+    "meta.cpp"
+]
+
+key_name = "{{prefix}}_{{version}}"
+authority = "{{prefix}}_{{version}}-{{git \"id 8\"}}"
+
+releasebuild = [
+    "@zip fish_{{semver.major}}.{{semver.minor}}.{{semver.patch}}"
+]
+
+[header_exts]
+version= "{{git \"id 8\"}}"
