@@ -3989,3 +3989,9 @@ class Ioannou_fish_desert_light_cream: Ioannou {
     disabled = 1;
     dlc="Tank";
 };
+
+// Default Face 
+class Default_fish_desert_dark_cream: WhiteHead_01_fish_desert_dark_cream {};
+class Default_fish_desert_regular_cream: WhiteHead_01_fish_desert_regular_cream {};
+class Default_fish_desert_light_cream: WhiteHead_01_fish_desert_light_cream {};
+class Default_fish_desert_half_cream: WhiteHead_01_fish_desert_half_cream {};
