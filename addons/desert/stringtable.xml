@@ -3,12 +3,15 @@
     <Package name="Desert">
         <Key ID="STR_FISH_CAMO_CREAM_Desert_Item">
             <English>Cam Cream Kit - Desert</English>
+            <Russian>Набор камуфляжного крема - Пустынный</Russian>
         </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Desert_type">
             <English>Desert</English>
+            <Russian>Пустынный</Russian>
         </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Desert_Item_description">
             <English>Kit that allows application of cam cream</English>
+            <Russian>Набор, позволяющий наносить камуфляжный крем</Russian>
         </Key>
     </Package>
 </Project>
