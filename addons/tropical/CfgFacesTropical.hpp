@@ -3989,3 +3989,9 @@ class Ioannou_fish_tropical_light_cream: Ioannou {
     disabled = 1;
     dlc="Tank";
 };
+
+// Default Face 
+class Default_fish_tropical_dark_cream: WhiteHead_01_fish_tropical_dark_cream {};
+class Default_fish_tropical_regular_cream: WhiteHead_01_fish_tropical_regular_cream {};
+class Default_fish_tropical_light_cream: WhiteHead_01_fish_tropical_light_cream {};
+class Default_fish_tropical_half_cream: WhiteHead_01_fish_tropical_half_cream {};
