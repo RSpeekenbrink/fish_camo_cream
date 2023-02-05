@@ -9,51 +9,67 @@
         </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Common_ace_category">
             <English>Camo Cream</English>
+            <Russian>Камуфляжный Крем</Russian>
         </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Common_apply_regular_cream">
             <English>Apply Regular Cream</English>
+            <Russian>Нанести Обычный Камуфляж</Russian>
         </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Common_apply_half_cream">
             <English>Apply Half Cream</English>
+            <Russian>Нанести Половину Камуфляжа</Russian>
         </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Common_apply_dark_cream">
             <English>Apply Dark Cream</English>
+            <Russian>Нанести Темный Камуфляж</Russian>
         </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Common_apply_light_cream">
             <English>Apply Light Cream</English>
+            <Russian>Нанести Легкий Камуфляж</Russian>
         </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Common_remove_cream">
             <English>Remove Camo Cream</English>
+            <Russian>Стереть Камуфляжный Крем</Russian>
         </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Common_ApplyingX">
             <English>Applying%1...</English>
+            <Russian>Наношу%1...</Russian>
         </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Common_Removing">
             <English>Removing Camo Cream...</English>
+            <Russian>Стираю Камуфляжный Крем...</Russian>
         </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Common_regular_cream">
             <English>Regular Cream</English>
+            <Russian>Обычный Камуфляж</Russian>
         </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Common_dark_cream">
             <English>Dark Cream</English>
+            <Russian>Темный Камуфляж</Russian>
         </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Common_light_cream">
             <English>Light Cream</English>
+            <Russian>Легкий Камуфляж</Russian>
         </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Common_half_cream">
             <English>Half Cream</English>
+            <Russian>Половина Камуфляжа</Russian>
         </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Common_application_time">
             <English>Application Time</English>
+            <Russian>Время Нанесения</Russian>
         </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Common_application_time_description">
-            <English>Time (in seconds) it takes to apply and remove camo cream.</English>
+            <English>Time (in seconds) it takes to apply and remove camo cream</English>
+            <Russian>Сколько времени (в секундах) займет нанесение и стирание камуфляжного крема</Russian>
         </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Common_require_correct_kit">
             <English>Require Correct Kit</English>
+            <Russian>Требовать Специфичный Набор</Russian>
         </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Common_require_correct_kit_description">
-            <English>Require correct kit for camo types. If unchecked having a single kit will make all camo types available for application.</English>
+            <English>Require correct kit for camo types. If unchecked having a single kit will make all camo types available for application</English>
+            <Russian>Для применения конкретного камуфляжа требуется определенный набор. Если галочка не стоит, то наличие одного комплекта даёт возможность нанести все типы камуфляжа</Russian>
         </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Common_require_kit_for_removal">
             <English>Require Camo Kit for Removal</English>

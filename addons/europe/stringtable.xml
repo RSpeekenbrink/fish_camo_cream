@@ -3,12 +3,15 @@
     <Package name="Europe">
         <Key ID="STR_FISH_CAMO_CREAM_Europe_Item">
             <English>Cam Cream Kit - Europe</English>
+            <Russian>Набор камуфляжного крема - Европейский</Russian>
         </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Europe_type">
             <English>Europe</English>
+            <Russian>Европейский</Russian>
         </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Europe_Item_description">
             <English>Kit that allows application of cam cream</English>
+            <Russian>Набор, позволяющий наносить камуфляжный крем</Russian>
         </Key>
     </Package>
 </Project>

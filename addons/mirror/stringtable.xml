@@ -3,9 +3,11 @@
     <Package name="Mirror">
         <Key ID="STR_FISH_CAMO_CREAM_Mirror_Displayname">
             <English>Mirror</English>
+            <Russian>Зеркало</Russian>
         </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Mirror_Show">
             <English>Open Mirror</English>
+            <Russian>Открыть Зеркало</Russian>
         </Key>
     </Package>
 </Project>
