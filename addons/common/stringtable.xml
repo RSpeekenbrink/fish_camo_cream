@@ -47,13 +47,19 @@
             <English>Application Time</English>
         </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Common_application_time_description">
-            <English>Time (in seconds) it takes to apply and remove camo cream</English>
+            <English>Time (in seconds) it takes to apply and remove camo cream.</English>
         </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Common_require_correct_kit">
             <English>Require Correct Kit</English>
         </Key>
         <Key ID="STR_FISH_CAMO_CREAM_Common_require_correct_kit_description">
-            <English>Require correct kit for camo types. If unchecked having a single kit will make all camo types available for application</English>
+            <English>Require correct kit for camo types. If unchecked having a single kit will make all camo types available for application.</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_Common_require_kit_for_removal">
+            <English>Require Camo Kit for Removal</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_Common_require_kit_for_removal_description">
+            <English>Require to have a kit in inventory in order to remove camo cream. If unchecked you can always remove camo cream.</English>
         </Key>
     </Package>
 </Project>
