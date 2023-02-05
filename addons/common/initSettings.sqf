@@ -19,3 +19,14 @@
     {},
     false
 ] call CBA_fnc_addSetting;
+
+[
+    QGVAR(require_kit_for_removal),
+    "CHECKBOX",
+    [LSTRING(require_kit_for_removal), LSTRING(require_kit_for_removal_description)],
+    LSTRING(DisplayName),
+    true,
+    true,
+    {},
+    false
+] call CBA_fnc_addSetting;
