@@ -5,7 +5,7 @@
  *
  * Arguments:
  * 0: Player <OBJECT>
- * 1: Face to apply or false to remove camo <STRING|BOOL>
+ * 1: Face to apply or false to remove camo <STRING>
  * 2: Name of the camo applied shown during load <STRING> (Optional)
  *
  * Return Value:
@@ -20,7 +20,7 @@
 private ["_player", "_camo", "_face"];
 
 _player = [_this, 0, objNull] call BIS_fnc_param;
-_camo = [_this, 1, ["", false]] call BIS_fnc_param;
+_camo = [_this, 1, "", false] call BIS_fnc_param;
 _camoName = [_this, 2, "", ""] call BIS_fnc_param;
 
 private _applicationTime = GVAR(application_time);
