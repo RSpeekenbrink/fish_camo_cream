@@ -71,5 +71,11 @@
             <English>Require correct kit for camo types. If unchecked having a single kit will make all camo types available for application</English>
             <Russian>Для применения конкретного камуфляжа требуется определенный набор. Если галочка не стоит, то наличие одного комплекта даёт возможность нанести все типы камуфляжа</Russian>
         </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_Common_require_kit_for_removal">
+            <English>Require Camo Kit for Removal</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_Common_require_kit_for_removal_description">
+            <English>Require to have a kit in inventory in order to remove camo cream. If unchecked you can always remove camo cream.</English>
+        </Key>
     </Package>
 </Project>

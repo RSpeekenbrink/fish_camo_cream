@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: 'Component - Short description'
+title: 'Short description'
 labels: bug
 assignees: ''
 ---

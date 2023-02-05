@@ -15,7 +15,7 @@
  * Public: Yes
  */
 
-private ["_player", "_face", "_result", "_playerItems"];
+private ["_player", "_face", "_result", "_playerItems", "_result"];
 
 _player = [_this, 0, objNull] call BIS_fnc_param;
 
@@ -23,4 +23,12 @@ if (!alive _player) exitWith {false};
 
 if (([_player] call FUNC(getCurrentCamo)) isEqualTo "") exitWith {false};
 
-[_player] call FUNC(hasAnyKit);
+_result = false;
+
+if (GVAR(require_kit_for_removal)) then {
+    _result = [_player] call FUNC(hasAnyKit);
+} else {
+    _result = true;
+};
+
+_result;
