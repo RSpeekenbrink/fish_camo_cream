@@ -35,12 +35,12 @@ if (!isClass(configFile >> "cfgFaces" >> "Man_A3" >> _face)) exitWith {false};
 _result = true;
 
 if (GVAR(require_correct_kit)) then {
-	// Check if player has required item in inventory
-	_requiredItem = GVAR(camo_available) get _camo;
+    // Check if player has required item in inventory
+    _requiredItem = GVAR(camo_available) get _camo;
 
-	if (!(_requiredItem in (_player call ACEFUNC(common,uniqueItems)))) exitWith {_result = false};
+    if (!(_requiredItem in (_player call ACEFUNC(common,uniqueItems)))) exitWith {_result = false};
 } else {
-	if (!([_player] call FUNC(hasAnyKit))) exitWith {_result = false};
+    if (!([_player] call FUNC(hasAnyKit))) exitWith {_result = false};
 };
 
 _result;

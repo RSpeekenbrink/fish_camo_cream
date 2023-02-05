@@ -23,47 +23,47 @@ private _applicationTime = GVAR(application_time);
 private _applicationText = LLSTRING(ApplyingX);
 
 if (!(_camo isEqualType "") || _camo isEqualTo "") then {
-	_applicationText = LLSTRING(Removing);
+    _applicationText = LLSTRING(Removing);
 } else {
-	_applicationText = format [_applicationText, " " + _camoName];
+    _applicationText = format [_applicationText, " " + _camoName];
 };
 
 private _fnc_onSuccess = {
-	params ["_args"];
-	_args params ["_player", "_camo"];
-	private ["_face"];
+    params ["_args"];
+    _args params ["_player", "_camo"];
+    private ["_face"];
 
-	if (!alive _player) exitWith {};
+    if (!alive _player) exitWith {};
 
-	if (!(_camo isEqualType "") || _camo isEqualTo "") then {
-		_camo = [_player] call FUNC(getCurrentCamo);
+    if (!(_camo isEqualType "") || _camo isEqualTo "") then {
+        _camo = [_player] call FUNC(getCurrentCamo);
 
-		if (!(_camo isEqualType "") || _camo isEqualTo "") exitWith {};
+        if (!(_camo isEqualType "") || _camo isEqualTo "") exitWith {};
 
-		_face = (face _player) trim [_camo, 2];
+        _face = (face _player) trim [_camo, 2];
 
-		[_player, _face] remoteExec ["setFace"];
-	} else {
-		_face = face _player + GVAR(face_prefix) + _camo;
+        [_player, _face] remoteExec ["setFace"];
+    } else {
+        _face = face _player + GVAR(face_prefix) + _camo;
 
-		[_player, _face] remoteExec ["setFace"];
-	};
+        [_player, _face] remoteExec ["setFace"];
+    };
 };
 
 private _fnc_onFailure = {
-	 params ["_args"];
+     params ["_args"];
     _args params ["_player"];
 
-	//
+    //
 };
 
 private _fnc_condition = {
-	params ["_args"];
-	_args params ["_player", "_camo"];
+    params ["_args"];
+    _args params ["_player", "_camo"];
 
-	if (!(_camo isEqualType "") || _camo isEqualTo "") exitWith {true};
+    if (!(_camo isEqualType "") || _camo isEqualTo "") exitWith {true};
 
-	[_player, _camo] call FUNC(canApplyCamo);
+    [_player, _camo] call FUNC(canApplyCamo);
 };
 
 [

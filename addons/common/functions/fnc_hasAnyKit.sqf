@@ -25,7 +25,7 @@ _playerItems = _player call ACEFUNC(common,uniqueItems);
 _result = false;
 
 {
-	if (_x in _playerItems) exitWith {_result = true};
+    if (_x in _playerItems) exitWith {_result = true};
 } forEach GVAR(camo_kits_available);
 
 _result;
