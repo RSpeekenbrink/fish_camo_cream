@@ -17,11 +17,7 @@
  * Public: Yes
  */
 
-private ["_player", "_camo", "_face"];
-
-_player = [_this, 0, objNull] call BIS_fnc_param;
-_camo = [_this, 1, "", false] call BIS_fnc_param;
-_camoName = [_this, 2, "", ""] call BIS_fnc_param;
+params ["_player", "_camo", "_camoName"];
 
 private _applicationTime = GVAR(application_time);
 private _applicationText = LLSTRING(ApplyingX);
@@ -54,7 +50,12 @@ private _fnc_onSuccess = {
 	};
 };
 
-private _fnc_onFailure = {};
+private _fnc_onFailure = {
+	 params ["_args"];
+    _args params ["_player"];
+
+	//
+};
 
 private _fnc_condition = {
 	params ["_args"];
