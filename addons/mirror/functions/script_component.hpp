@@ -1,0 +1,1 @@
+#include "\z\fish_camo_cream\addons\mirror\script_component.hpp"

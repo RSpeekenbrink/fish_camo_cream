@@ -1,0 +1,2 @@
+PREP(loadMirrorDialog);
+PREP(openMirror);

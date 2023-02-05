@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="FISH_CAMO_CREAM">
+    <Package name="Mirror">
+        <Key ID="STR_FISH_CAMO_CREAM_Mirror_Displayname">
+            <English>Mirror</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_Mirror_Show">
+            <English>Open Mirror</English>
+        </Key>
+    </Package>
+</Project>

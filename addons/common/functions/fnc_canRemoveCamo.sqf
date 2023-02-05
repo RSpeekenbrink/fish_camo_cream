@@ -10,7 +10,7 @@
  * if camo can be removed <BOOL>
  *
  * Example:
- * [player] call fish_camo_cream_common_cam_fnc_canRemoveCamo
+ * [player] call fish_camo_cream_common_fnc_canRemoveCamo
  *
  * Public: Yes
  */
