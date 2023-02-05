@@ -1,6 +1,6 @@
-name = "Fish Camo Cream 1.0.0";
+name = "Fish Camo Cream 1.0.1";
 picture = "logo.paa";
-description = "Fish Camo Cream - Version 1.0.0";
+description = "Fish Camo Cream - Version 1.0.1";
 logo = "logo.paa";
 logoOver = "logo.paa";
 tooltip = "FISH_CAMO_CREAM";
