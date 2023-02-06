@@ -38,6 +38,8 @@ if (GVAR(require_correct_kit)) then {
     // Check if player has required item in inventory
     _requiredItem = GVAR(camo_available) get _camo;
 
+    if (_requiredItem isEqualTo "*") exitWith {_result = _player call FUNC(hasAnyKit)};
+
     if (!(_requiredItem in (_player call ACEFUNC(common,uniqueItems)))) exitWith {_result = false};
 } else {
     if (!([_player] call FUNC(hasAnyKit))) exitWith {_result = false};

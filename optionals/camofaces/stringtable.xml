@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="FISH_CAMO_CREAM">
+    <Package name="CamoFaces">
+        <Key ID="STR_FISH_CAMO_CREAM_CamoFaces_type">
+            <English>CamoFaces</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_CamoFaces_apply_cfaces_BWTarn">
+            <English>Apply Normal Camo</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_CamoFaces_apply_cfaces_BWStripes">
+            <English>Apply Basic Camo</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_CamoFaces_apply_cfaces_Black">
+            <English>Apply Black Camo</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_CamoFaces_apply_cfaces_Serbian">
+            <English>Apply Serbian Camo</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_CamoFaces_apply_cfaces_USStripes">
+            <English>Apply US Stripes Camo</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_CamoFaces_apply_cfaces_USStains">
+            <English>Apply US Stains Camo</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_CamoFaces_apply_cfaces_USFlash">
+            <English>Apply US Flash Camo</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_CamoFaces_cfaces_BWTarn">
+            <English>Apply Normal Camo</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_CamoFaces_cfaces_BWStripes">
+            <English>Basic Camo</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_CamoFaces_cfaces_Black">
+            <English>Black Camo</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_CamoFaces_cfaces_Serbian">
+            <English>Serbian Camo</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_CamoFaces_cfaces_USStripes">
+            <English>US Stripes Camo</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_CamoFaces_cfaces_USStains">
+            <English>US Stains Camo</English>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_CamoFaces_cfaces_USFlash">
+            <English>US Flash Camo</English>
+        </Key>
+    </Package>
+</Project>
