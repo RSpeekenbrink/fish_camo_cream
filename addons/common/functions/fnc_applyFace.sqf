@@ -25,6 +25,10 @@ _camo = [_this, 1, ""] call BIS_fnc_param;
 _camoName = [_this, 2, ""] call BIS_fnc_param;
 _camoPrefix = [_this, 3, GVAR(default_face_prefix)] call BIS_fnc_param;
 
+if (!(local _player)) exitWith {
+    [_player, _camo, _camoName, _camoPrefix] remoteExecCall [QFUNC(applyFace), _player];
+};
+
 _applicationTime = GVAR(application_time);
 _applicationText = LLSTRING(ApplyingX);
 
@@ -55,6 +59,10 @@ private _fnc_onSuccess = {
         _face = face _player + _camoPrefix + _camo;
 
         [_player, _face] remoteExec ["setFace"];
+    };
+
+    if (["fish_camo_cream_mirror"] call FUNC(isModLoaded) && EGVAR(mirror,showMirrorOnApplication)) then {
+        [] call EFUNC(mirror,openMirror);
     };
 };
 
