@@ -16,22 +16,10 @@ def tryHemttBuild(projectpath):
         os.chdir(projectpath)
         ret = subprocess.call([hemttExe, "pack"], stderr=subprocess.STDOUT)
         print("Using hemtt: {}".format(ret));
-        copyIncludePbo(projectpath)
         return True
     else:
         print("hemtt not installed");
     return False
-
-def copyIncludePbo(projectpath):
-    includepath = os.path.join(projectpath, "include/pbo")
-    addonspath = os.path.join(projectpath, "addons")
-    files = os.listdir(includepath)
-    for file_name in files:
-        srcpath = os.path.join(includepath, file_name)
-        if os.path.isfile(srcpath):
-            destpath = os.path.join(addonspath, file_name)
-            if os.path.isfile(destpath): os.remove(destpath)
-            shutil.copy(srcpath, destpath)
     
 def mod_time(path):
     if not os.path.isdir(path):

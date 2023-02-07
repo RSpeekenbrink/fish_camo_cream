@@ -10,6 +10,6 @@ PREP_RECOMPILE_END;
 
 ADDON = true;
 
-GVAR(face_prefix) = "_fish_";
+GVAR(default_face_prefix) = "_fish_";
 GVAR(camo_kits_available) = [];
 GVAR(camo_available) = createHashMap;

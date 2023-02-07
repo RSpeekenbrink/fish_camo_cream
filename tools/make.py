@@ -118,28 +118,6 @@ def  get_directory_hash(directory):
     #print_yellow("Hash Value for {} is {}".format(directory,retVal))
     return directory_hash.hexdigest()
 
-def copyIncludePbo(projectpath):
-    includepath = os.path.join(projectpath, "include/pbo")
-    addonspath = os.path.join(projectpath, "release/@fish_camo_cream/addons")
-    files = os.listdir(includepath)
-    for file_name in files:
-        srcpath = os.path.join(includepath, file_name)
-        if os.path.isfile(srcpath):
-            destpath = os.path.join(addonspath, file_name)
-            if os.path.isfile(destpath): os.remove(destpath)
-            shutil.copy(srcpath, destpath)
-
-def copyIncludeKeys(projectpath):
-    includepath = os.path.join(projectpath, "include/keys")
-    addonspath = os.path.join(projectpath, "release/@fish_camo_cream/keys")
-    files = os.listdir(includepath)
-    for file_name in files:
-        srcpath = os.path.join(includepath, file_name)
-        if os.path.isfile(srcpath):
-            destpath = os.path.join(addonspath, file_name)
-            if os.path.isfile(destpath): os.remove(destpath)
-            shutil.copy(srcpath, destpath)
-
 def Fract_Sec(s):
     temp = float()
     temp = float(s) / (60*60*24)
@@ -1459,12 +1437,6 @@ See the make.cfg file for additional build options.
 
 
     finally:
-        print_green("\nCopying include external PBOs")
-        copyIncludePbo(project_root)
-
-        print_green("\nCopying include external Keys")
-        copyIncludeKeys(project_root)
-
         copy_important_files(module_root_parent,os.path.join(release_dir, project))
         if (os.path.isdir(optionals_root)):
             cleanup_optionals(optionals_modules)
