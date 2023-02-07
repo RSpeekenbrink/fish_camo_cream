@@ -56,6 +56,10 @@ private _fnc_onSuccess = {
 
         [_player, _face] remoteExec ["setFace"];
     };
+
+    if (["fish_camo_cream_mirror"] call FUNC(isModLoaded) && EGVAR(mirror,showMirrorOnApplication)) then {
+        [] call EFUNC(mirror,openMirror);
+    };
 };
 
 private _fnc_onFailure = {};
