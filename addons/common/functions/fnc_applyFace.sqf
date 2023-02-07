@@ -7,20 +7,26 @@
  * 0: Player <OBJECT>
  * 1: Face to apply or false to remove camo <STRING>
  * 2: Name of the camo applied shown during load <STRING> (Optional)
+ * 3: Camo Prefix "_fish_" by default <STRING> (Optional)
  *
  * Return Value:
  * if camo can be applied <BOOL>
  *
  * Example:
- * [player, "europe_regular_cream"] call fish_camo_cream_common_fnc_applyFace
+ * [player, "europe_regular_cream", "Europe Regular Cream", "_fish_"] call fish_camo_cream_common_fnc_applyFace
  *
  * Public: Yes
  */
 
-params ["_player", "_camo", "_camoName"];
+ private ["_player", "_camo", "_camoName", "_camoPrefix", "_applicationTime", "_applicationText"];
 
-private _applicationTime = GVAR(application_time);
-private _applicationText = LLSTRING(ApplyingX);
+_player = [_this, 0, objNull] call BIS_fnc_param;
+_camo = [_this, 1, ""] call BIS_fnc_param;
+_camoName = [_this, 2, ""] call BIS_fnc_param;
+_camoPrefix = [_this, 3, GVAR(default_face_prefix)] call BIS_fnc_param;
+
+_applicationTime = GVAR(application_time);
+_applicationText = LLSTRING(ApplyingX);
 
 if (!(_camo isEqualType "") || _camo isEqualTo "") then {
     _applicationText = LLSTRING(Removing);
@@ -30,8 +36,10 @@ if (!(_camo isEqualType "") || _camo isEqualTo "") then {
 
 private _fnc_onSuccess = {
     params ["_args"];
-    _args params ["_player", "_camo"];
+    _args params ["_player", "_camo", "_camoPrefix"];
     private ["_face"];
+
+    TRACE_3("Applying Camo...",_player,_camo,_camoPrefix);
 
     if (!alive _player) exitWith {};
 
@@ -44,33 +52,29 @@ private _fnc_onSuccess = {
 
         [_player, _face] remoteExec ["setFace"];
     } else {
-        _face = face _player + GVAR(face_prefix) + _camo;
+        _face = face _player + _camoPrefix + _camo;
 
         [_player, _face] remoteExec ["setFace"];
     };
 };
 
-private _fnc_onFailure = {
-     params ["_args"];
-    _args params ["_player"];
-
-    //
-};
+private _fnc_onFailure = {};
 
 private _fnc_condition = {
     params ["_args"];
-    _args params ["_player", "_camo"];
+    _args params ["_player", "_camo", "_camoPrefix"];
 
     if (!(_camo isEqualType "") || _camo isEqualTo "") exitWith {true};
 
-    [_player, _camo] call FUNC(canApplyCamo);
+    [_player, _camo, _camoPrefix] call FUNC(canApplyCamo);
 };
 
 [
     _applicationTime,
     [
         _player,
-        _camo
+        _camo,
+        _camoPrefix
     ],
     _fnc_onSuccess,
     _fnc_onFailure,

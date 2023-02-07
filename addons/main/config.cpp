@@ -20,7 +20,7 @@ class CfgMods {
         picture = "A3\Ui_f\data\Logos\arma3_expansion_alpha_ca";
         hidePicture = "true";
         hideName = "true";
-        actionName = "Discord";
+        actionName = "Mod Page";
         action = CSTRING(URL);
         description = "Fish Camo Cream";
     };
