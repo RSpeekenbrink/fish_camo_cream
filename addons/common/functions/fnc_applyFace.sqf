@@ -50,13 +50,20 @@ private _fnc_onSuccess = {
     if (!(_camo isEqualType "") || _camo isEqualTo "") then {
         _camo = [_player] call FUNC(getCurrentCamo);
 
+        TRACE_1("Current Camo", _camo);
+
         if (!(_camo isEqualType "") || _camo isEqualTo "") exitWith {};
 
-        _face = (face _player) trim [_camo, 2];
+        _face = face _player;
+        _face = [_face, 0, count _face - count _camo - 1] call BIS_fnc_trimString;
+
+        TRACE_2("Set Face", face _player, _face);
 
         [_player, _face] remoteExec ["setFace"];
     } else {
         _face = face _player + _camoPrefix + _camo;
+
+        TRACE_2("Set Face", face _player, _face);
 
         [_player, _face] remoteExec ["setFace"];
     };

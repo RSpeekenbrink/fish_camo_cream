@@ -24,7 +24,7 @@ class Stage1
 };
 class Stage2
 {
-	texture="#(argb,8,8,3)color(0,0,0,0,MC)";
+	texture="z\fish_camo_cream\addons\snow\heads\dark_cream\cream.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -36,7 +36,7 @@ class Stage2
 };
 class Stage3
 {
-	texture="z\fish_camo_cream\addons\snow\heads\dark_cream\m_tanoan_03_co.paa";
+	texture="a3\characters_f_exp\heads\data\m_tanoan_03_co.paa";
 	uvSource="tex";
 	class uvTransform
 	{

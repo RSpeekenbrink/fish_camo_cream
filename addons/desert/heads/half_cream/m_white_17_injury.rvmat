@@ -24,7 +24,7 @@ class Stage1
 };
 class Stage2
 {
-	texture="a3\characters_f\heads\data\m_w1_mc.paa";
+	texture="z\fish_camo_cream\addons\desert\heads\half_cream\m_w1_mc.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -36,7 +36,7 @@ class Stage2
 };
 class Stage3
 {
-	texture="z\fish_camo_cream\addons\desert\heads\half_cream\m_white_17_co.paa";
+	texture="a3\characters_f_epb\heads\data\m_white_17_co.paa";
 	uvSource="tex";
 	class uvTransform
 	{
