@@ -29,8 +29,7 @@ Every face in arma has a classname. Which is fetched with the 'face' script comm
 I.E.: WhiteHead_23_fish_europe_light_cream
 ```
 Whitehead_23 is the face
-_fish_ is the prefix
-europe_light_cream is the camo
+_fish_europe_light_cream is the camo
 ```
 
 The camo is registered via the RegisterCamo function.

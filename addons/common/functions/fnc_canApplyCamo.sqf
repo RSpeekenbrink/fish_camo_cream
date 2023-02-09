@@ -6,7 +6,6 @@
  * Arguments:
  * 0: Player <OBJECT>
  * 1: Camo name <STRING>
- * 2: Camo Prefix <STRING> (Optional)
  *
  * Return Value:
  * if camo can be applied <BOOL>
@@ -17,11 +16,10 @@
  * Public: Yes
  */
 
-private ["_player", "_camo", "_face", "_requiredItem", "_result", "_camoPrefix"];
+private ["_player", "_camo", "_face", "_requiredItem", "_result"];
 
 _player = [_this, 0, objNull] call BIS_fnc_param;
 _camo = [_this, 1, ""] call BIS_fnc_param;
-_camoPrefix = [_this, 2, GVAR(default_face_prefix)] call BIS_fnc_param;
 
 // If no player, exit
 if (!alive _player) exitWith {false};
@@ -30,7 +28,7 @@ if (!alive _player) exitWith {false};
 if (!(_camo in GVAR(camo_available))) exitWith {false};
 
 // Define the face we are looking for and check if it exists
-_face = face _player + _camoPrefix + _camo;
+_face = face _player + _camo;
 
 TRACE_1("Checking Face",_face);
 
