@@ -8,7 +8,7 @@ PixelShaderID="Skin";
 VertexShaderID="Skin";
 class StageTI
 {
-	texture="a3\characters_f\heads\data\m_ti_ca.paa";
+	texture="z\fish_camo_cream\addons\desert\heads\dark_cream\m_ti_ca.paa";
 };
 class Stage1
 {

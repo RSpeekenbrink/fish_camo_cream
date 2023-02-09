@@ -1,6 +1,6 @@
 class StageTI
 {
-	texture="a3\characters_f\heads\data\m_ti_ca.paa";
+	texture="z\fish_camo_cream\addons\snow\heads\regular_cream\m_ti_ca.paa";
 };
 ambient[]={2,2,2,1};
 diffuse[]={0.30000001,0.28,0.25,1};
