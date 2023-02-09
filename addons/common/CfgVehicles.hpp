@@ -8,7 +8,7 @@ class CfgVehicles {
                 condition = QUOTE(true);
                 exceptions[] = {"isNotSwimming", "isNotInside", "notOnMap", "isNotSitting"};
                 statement = "";
-                showdisabled = 0;
+                showdisabled = 1;
                 icon = QPATHTOF(ui\icon_camocream_ca.paa);
 
                 class GVAR(remove_cream) {
@@ -16,7 +16,7 @@ class CfgVehicles {
                     condition = QUOTE([player] call FUNC(canRemoveCamo));
                     exceptions[] = {"isNotSwimming", "isNotInside", "notOnMap", "isNotSitting"};
                     statement = QUOTE([ARR_2(player, false)] call FUNC(applyFace));
-                    showDisabled = 0;
+                    showdisabled = 1;
                     icon = QPATHTOEF(common,ui\icon_camooff_ca.paa);
                 };
             };

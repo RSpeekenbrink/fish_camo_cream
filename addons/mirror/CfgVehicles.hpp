@@ -9,7 +9,7 @@ class CfgVehicles {
                     condition = QUOTE([player] call EFUNC(common,hasAnyKit));
                     exceptions[] = {"isNotSwimming", "isNotInside", "notOnMap", "isNotSitting"};
                     statement = QUOTE([] call FUNC(openMirror));
-                    showDisabled = 0;
+                    showdisabled = 1;
                     icon = QPATHTOEF(common,ui\icon_camocream_ca.paa);
                 };
             };
