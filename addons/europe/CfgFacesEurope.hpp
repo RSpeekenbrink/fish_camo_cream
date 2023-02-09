@@ -3643,3 +3643,84 @@ class Sturrock_fish_europe_dark_cream: Sturrock {
     materialWounded2 = QPATHTOF(heads\dark_cream\m_white_01_injury.rvmat);
     disabled = 0;
 };
+
+class Barklem_fish_europe_regular_cream: Barklem {
+    author = ECSTRING(common,ModTeam);
+    identityTypes[] = {};
+    material = QPATHTOF(heads\regular_cream\m_barklem.rvmat);
+    materialWounded1 = QPATHTOF(heads\regular_cream\m_african_01_injury.rvmat);
+    materialWounded2 = QPATHTOF(heads\regular_cream\m_african_01_injury.rvmat);
+    disabled = 0;
+};
+
+class Mavros_fish_europe_regular_cream: Mavros {
+    author = ECSTRING(common,ModTeam);
+    identityTypes[] = {};
+    material = QPATHTOF(heads\regular_cream\m_mavros.rvmat);
+    materialWounded1 = QPATHTOF(heads\regular_cream\m_greek_01_injury.rvmat);
+    materialWounded2 = QPATHTOF(heads\regular_cream\m_greek_01_injury.rvmat);
+    disabled = 0;
+};
+
+class Sturrock_fish_europe_regular_cream: Sturrock {
+    author = ECSTRING(common,ModTeam);
+    identityTypes[] = {};
+    material = QPATHTOF(heads\regular_cream\m_sturrock.rvmat);
+    materialWounded1 = QPATHTOF(heads\regular_cream\m_white_01_injury.rvmat);
+    materialWounded2 = QPATHTOF(heads\regular_cream\m_white_01_injury.rvmat);
+    disabled = 0;
+};
+
+class Barklem_fish_europe_light_cream: Barklem {
+    author = ECSTRING(common,ModTeam);
+    identityTypes[] = {};
+    material = QPATHTOF(heads\light_cream\m_barklem.rvmat);
+    materialWounded1 = QPATHTOF(heads\light_cream\m_african_01_injury.rvmat);
+    materialWounded2 = QPATHTOF(heads\light_cream\m_african_01_injury.rvmat);
+    disabled = 0;
+};
+
+class Mavros_fish_europe_light_cream: Mavros {
+    author = ECSTRING(common,ModTeam);
+    identityTypes[] = {};
+    material = QPATHTOF(heads\light_cream\m_mavros.rvmat);
+    materialWounded1 = QPATHTOF(heads\light_cream\m_greek_01_injury.rvmat);
+    materialWounded2 = QPATHTOF(heads\light_cream\m_greek_01_injury.rvmat);
+    disabled = 0;
+};
+
+class Sturrock_fish_europe_light_cream: Sturrock {
+    author = ECSTRING(common,ModTeam);
+    identityTypes[] = {};
+    material = QPATHTOF(heads\light_cream\m_sturrock.rvmat);
+    materialWounded1 = QPATHTOF(heads\light_cream\m_white_01_injury.rvmat);
+    materialWounded2 = QPATHTOF(heads\light_cream\m_white_01_injury.rvmat);
+    disabled = 0;
+};
+
+class Barklem_fish_europe_half_cream: Barklem {
+    author = ECSTRING(common,ModTeam);
+    identityTypes[] = {};
+    material = QPATHTOF(heads\half_cream\m_barklem.rvmat);
+    materialWounded1 = QPATHTOF(heads\half_cream\m_african_01_injury.rvmat);
+    materialWounded2 = QPATHTOF(heads\half_cream\m_african_01_injury.rvmat);
+    disabled = 0;
+};
+
+class Mavros_fish_europe_half_cream: Mavros {
+    author = ECSTRING(common,ModTeam);
+    identityTypes[] = {};
+    material = QPATHTOF(heads\half_cream\m_mavros.rvmat);
+    materialWounded1 = QPATHTOF(heads\half_cream\m_greek_01_injury.rvmat);
+    materialWounded2 = QPATHTOF(heads\half_cream\m_greek_01_injury.rvmat);
+    disabled = 0;
+};
+
+class Sturrock_fish_europe_half_cream: Sturrock {
+    author = ECSTRING(common,ModTeam);
+    identityTypes[] = {};
+    material = QPATHTOF(heads\half_cream\m_sturrock.rvmat);
+    materialWounded1 = QPATHTOF(heads\half_cream\m_white_01_injury.rvmat);
+    materialWounded2 = QPATHTOF(heads\half_cream\m_white_01_injury.rvmat);
+    disabled = 0;
+};

@@ -8,7 +8,7 @@ class CfgVehicles {
                 condition = QUOTE(true);
                 exceptions[] = {"isNotSwimming", "isNotInside", "notOnMap", "isNotSitting"};
                 statement = "";
-                showDisabled = 1;
+                showdisabled = 0;
                 icon = QPATHTOF(ui\icon_camocream_ca.paa);
 
                 class GVAR(remove_cream) {

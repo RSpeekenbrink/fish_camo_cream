@@ -97,6 +97,9 @@ class CfgFaces  {
         /** external **/ class GreekHead_A3_13;
         /** external **/ class GreekHead_A3_14;
         /** external **/ class WhiteHead_23;
+        /** external **/ class Barklem;
+        /** external **/ class Mavros;
+        /** external **/ class Sturrock;
 
         #include "CfgFacesTropical.hpp"
     };
