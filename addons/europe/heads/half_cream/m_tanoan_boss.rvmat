@@ -36,7 +36,7 @@ class Stage2
 };
 class Stage3
 {
-	texture="#(argb,8,8,3)color(0,0,0,0,MC)";
+	texture="z\fish_camo_cream\addons\europe\heads\half_cream\cream.paa";
 	uvSource="tex";
 	class uvTransform
 	{
