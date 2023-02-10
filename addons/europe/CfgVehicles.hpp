@@ -9,42 +9,42 @@ class CfgVehicles {
                     condition = QUOTE(true);
                     exceptions[] = {"isNotSwimming", "isNotInside", "notOnMap", "isNotSitting"};
                     statement = "";
-                    showDisabled = 1;
+                    showdisabled = 1;
                     icon = QPATHTOEF(common,ui\icon_camoon_ca.paa);
 
-                    class GVAR(apply_europe_regular_cream) {
+                    class GVAR(apply_fish_europe_regular_cream) {
                         displayName = ECSTRING(common,apply_regular_cream);
-                        condition = QUOTE([ARR_2(player, DQUOTE(europe_regular_cream))] call EFUNC(common,canApplyCamo));
+                        condition = QUOTE([ARR_2(player, DQUOTE(_fish_europe_regular_cream))] call EFUNC(common,canApplyCamo));
                         exceptions[] = {"isNotSwimming", "isNotInside", "notOnMap", "isNotSitting"};
-                        statement = QUOTE([ARR_3(player, DQUOTE(europe_regular_cream), (DLLSTRING(type)) + "" "" + (DLELSTRING(common,regular_cream)))] call EFUNC(common,applyFace));
-                        showDisabled = 0;
+                        statement = QUOTE([ARR_3(player, DQUOTE(_fish_europe_regular_cream), (DLLSTRING(type)) + "" "" + (DLELSTRING(common,regular_cream)))] call EFUNC(common,applyFace));
+                        showdisabled = 1;
                         icon = QPATHTOEF(common,ui\icon_camoon_ca.paa);
                     };
 
-                    class GVAR(apply_europe_dark_cream) {
+                    class GVAR(apply_fish_europe_dark_cream) {
                         displayName =  ECSTRING(common,apply_dark_cream);
-                        condition = QUOTE([ARR_2(player, DQUOTE(europe_dark_cream))] call EFUNC(common,canApplyCamo));
+                        condition = QUOTE([ARR_2(player, DQUOTE(_fish_europe_dark_cream))] call EFUNC(common,canApplyCamo));
                         exceptions[] = {"isNotSwimming", "isNotInside", "notOnMap", "isNotSitting"};
-                        statement = QUOTE([ARR_3(player, DQUOTE(europe_dark_cream), (DLLSTRING(type)) + "" "" + (DLELSTRING(common,dark_cream)))] call EFUNC(common,applyFace));
-                        showDisabled = 0;
+                        statement = QUOTE([ARR_3(player, DQUOTE(_fish_europe_dark_cream), (DLLSTRING(type)) + "" "" + (DLELSTRING(common,dark_cream)))] call EFUNC(common,applyFace));
+                        showdisabled = 1;
                         icon = QPATHTOEF(common,ui\icon_camoon_ca.paa);
                     };
 
-                    class GVAR(apply_europe_light_cream) {
+                    class GVAR(apply_fish_europe_light_cream) {
                         displayName = ECSTRING(common,apply_light_cream);
-                        condition = QUOTE([ARR_2(player, DQUOTE(europe_light_cream))] call EFUNC(common,canApplyCamo));
+                        condition = QUOTE([ARR_2(player, DQUOTE(_fish_europe_light_cream))] call EFUNC(common,canApplyCamo));
                         exceptions[] = {"isNotSwimming", "isNotInside", "notOnMap", "isNotSitting"};
-                        statement = QUOTE([ARR_3(player, DQUOTE(europe_light_cream), (DLLSTRING(type)) + "" "" + (DLELSTRING(common,light_cream)))] call EFUNC(common,applyFace));
-                        showDisabled = 0;
+                        statement = QUOTE([ARR_3(player, DQUOTE(_fish_europe_light_cream), (DLLSTRING(type)) + "" "" + (DLELSTRING(common,light_cream)))] call EFUNC(common,applyFace));
+                        showdisabled = 1;
                         icon = QPATHTOEF(common,ui\icon_camoon_ca.paa);
                     };
 
-                    class GVAR(apply_europe_half_cream) {
+                    class GVAR(apply_fish_europe_half_cream) {
                         displayName = ECSTRING(common,apply_half_cream);
-                        condition = QUOTE([ARR_2(player, DQUOTE(europe_half_cream))] call EFUNC(common,canApplyCamo));
+                        condition = QUOTE([ARR_2(player, DQUOTE(_fish_europe_half_cream))] call EFUNC(common,canApplyCamo));
                         exceptions[] = {"isNotSwimming", "isNotInside", "notOnMap", "isNotSitting"};
-                        statement = QUOTE([ARR_3(player, DQUOTE(europe_half_cream), (DLLSTRING(type)) + "" "" + (DLELSTRING(common,half_cream)))] call EFUNC(common,applyFace));
-                        showDisabled = 0;
+                        statement = QUOTE([ARR_3(player, DQUOTE(_fish_europe_half_cream), (DLLSTRING(type)) + "" "" + (DLELSTRING(common,half_cream)))] call EFUNC(common,applyFace));
+                        showdisabled = 1;
                         icon = QPATHTOEF(common,ui\icon_camoon_ca.paa);
                     };
                 };

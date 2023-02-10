@@ -1,6 +1,6 @@
 class StageTI
 {
-	texture="a3\characters_f\heads\data\m_ti_ca.paa";
+	texture="z\fish_camo_cream\addons\desert\heads\regular_cream\m_ti_ca.paa";
 };
 ambient[]={2,2,2,1};
 diffuse[]={0.44999999,0.41999999,0.40000001,1};
@@ -24,7 +24,7 @@ class Stage1
 };
 class Stage2
 {
-	texture="#(argb,8,8,3)color(0,0,0,0,MC)";
+	texture="z\fish_camo_cream\addons\desert\heads\regular_cream\cream.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -36,7 +36,7 @@ class Stage2
 };
 class Stage3
 {
-	texture="z\fish_camo_cream\addons\desert\heads\regular_cream\m_kerry_a_co.paa";
+	texture="a3\characters_f_epa\heads\data\m_kerry_a_co.paa";
 	uvSource="tex";
 	class uvTransform
 	{

@@ -25,9 +25,11 @@ _face = face _player;
 _result = "";
 
 {
-    private _camo = GVAR(face_prefix) + _x;
+    private _camo = _x;
 
     if ([_camo, _face] call BIS_fnc_inString) exitWith {_result = _camo};
 } forEach GVAR(camo_available);
+
+TRACE_1("Current Camo",_result);
 
 _result;

@@ -9,5 +9,13 @@
             <English>Open Mirror</English>
             <Russian>Открыть Зеркало</Russian>
         </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_Mirror_show_mirror_on_application">
+            <English>Show mirror after Application/Removal</English>
+            <Russian>Открыть Зеркало после Нанесения/Стирания</Russian>
+        </Key>
+        <Key ID="STR_FISH_CAMO_CREAM_Mirror_show_mirror_on_application_description">
+            <English>Opens the mirror automatically after applying or removing camo when checked.</English>
+            <Russian>Автоматически открывает Зеркало после нанесения или стирания камуфляжа, если стоит галочка</Russian>
+        </Key>
     </Package>
 </Project>

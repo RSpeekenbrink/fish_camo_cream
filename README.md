@@ -22,6 +22,19 @@ To actually get the source code on your machine, it is recommended that you use 
 
 If you just want to create a quick and dirty build, you can also directly download the source code using the "Download ZIP" button on the front page of the GitHub repo.
 
+### 2.1. How does it work?
+
+Every face in arma has a classname. Which is fetched with the 'face' script command. What we try and do is match the face with a given camo and see if this exists. Once this exists and the Player has all requirements for this face it can apply the camo.
+
+I.E.: WhiteHead_23_fish_europe_light_cream
+```
+Whitehead_23 is the face
+_fish_europe_light_cream is the camo
+```
+
+The camo is registered via the RegisterCamo function.
+
+So in order to make a custom extension we have to make new faces, for every face in arma. Register the camo and make a custom self action in ace using CfgVehicles. Look at one of the existing kits for examples.
 
 ## 3. Setup and Building
 

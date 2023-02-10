@@ -8,7 +8,7 @@ PixelShaderID="Skin";
 VertexShaderID="Skin";
 class StageTI
 {
-	texture="a3\characters_f\heads\data\m_ti_ca.paa";
+	texture="z\fish_camo_cream\addons\tropical\heads\dark_cream\m_ti_ca.paa";
 };
 class Stage1
 {
@@ -24,7 +24,7 @@ class Stage1
 };
 class Stage2
 {
-	texture="#(argb,8,8,3)color(0,0,0,0,MC)";
+	texture="z\fish_camo_cream\addons\tropical\heads\dark_cream\cream.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -36,7 +36,7 @@ class Stage2
 };
 class Stage3
 {
-	texture="z\fish_camo_cream\addons\tropical\heads\dark_cream\m_Ioannou_co.paa";
+	texture="a3\characters_f_tank\heads\data\m_Ioannou_co.paa";
 	uvSource="tex";
 	class uvTransform
 	{

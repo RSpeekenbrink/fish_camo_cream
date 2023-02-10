@@ -1,6 +1,6 @@
 class StageTI
 {
-	texture="a3\characters_f\heads\data\m_ti_ca.paa";
+	texture="z\fish_camo_cream\addons\tropical\heads\dark_cream\m_ti_ca.paa";
 };
 ambient[]={2,2,2,1};
 diffuse[]={0.34,0.31999999,0.30000001,1};
@@ -36,7 +36,7 @@ class Stage2
 };
 class Stage3
 {
-	texture="z\fish_camo_cream\addons\tropical\heads\dark_cream\m_greek_01_co.paa";
+	texture="a3\characters_f\heads\data\m_greek_01_co.paa";
 	uvSource="tex";
 	class uvTransform
 	{

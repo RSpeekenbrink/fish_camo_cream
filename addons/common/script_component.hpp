@@ -4,6 +4,8 @@
 
 // #define DISABLE_COMPILE_CACHE
 
+// #define DEBUG_ENABLED_COMMON
+
 #ifdef DEBUG_ENABLED_COMMON
     #define DEBUG_MODE_FULL
 #endif
