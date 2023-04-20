@@ -15,6 +15,7 @@ import winreg
 MAINDIR = "z"
 PROJECTDIR = "fish_camo_cream"
 CBA = "P:\\x\\cba"
+A3FILES = "P:\\a3"
 ##########################
 
 def main():
@@ -87,6 +88,17 @@ def main():
         return 6
 
     print("# Links created successfully.")
+
+    print("\n# Copying required a3 includes ...")
+    
+    try:
+       shutil.copytree(os.path.join(projectpath, "include", "a3"), A3FILES)
+    except:
+        raise
+        print("Something went wrong while copying A3 includes. Please copy include\\a3 to {} manually.".format(A3FILES))
+        return 8
+
+    print("# A3 includes copied successfully to {}.".format(A3FILES))
 
 
     print("\n# Copying required CBA includes ...")
